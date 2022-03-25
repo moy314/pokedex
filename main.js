@@ -48,9 +48,9 @@ const fetchPokemon=() =>{
         pokeimagen(pokeImg);
 //----------------------------DATOS-------------------
         let tipo = `tipo: ${data.types[0].type.name}` ;
-        let peso = `peso : ${data.weight}`;
+        let peso = `peso : ${data.weight} Kg` ;
         let nombre = `nombre : ${data.name}`;
-        let altura = ` altura : ${data.height}`;
+        let altura = `altura : ${data.height} Ft`;
 
         /*let tipo = data.types[0].type.name;
         let peso = data.weight;

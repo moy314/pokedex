@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Oxygen+Mono&family=Oxygen:wght@300&family=VT323&display=swap" rel="stylesheet">
     <title>Pokedex</title>
    
 </head>
@@ -16,7 +19,7 @@
 
     <div class="pokedex">
     <div class="seccion1">
-
+        <div class="leds">
         <div class="bordeBlanco">
             <div class="sombraLed">
                 <div class="ledAzul">
@@ -61,12 +64,12 @@
         </div>
     </div>
 </div>
-
+</div>
 <!--LED ROJO-->
 
 
 
-    <h1>POKEDEX LAUNCH X</h1>
+    
 
 
     <div class="pantalla">
@@ -75,8 +78,8 @@
         </div>
     </div>
     <br>
-    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" value="pikachu">
-    <button onclick="fetchPokemon()">cambiar pokemon</button>
+   <!-- <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" value="pikachu">
+    <button onclick="fetchPokemon()">cambiar pokemon</button>-->
     
     
        
@@ -98,21 +101,31 @@
 
 
 
-        <input type="text" value="pikachu" name="nombre" readonly="true" id="nombre">
+        <!--<input type="text" value="pikachu" name="nombre" readonly="true" id="nombre">-->
 
-        <input type="text" value="" name="tipo" readonly="true" id="tipo">
-      
-        <input type="text" value="" name="peso" readonly="true" id="peso">
+       <!----> 
+
+        <div class="infoFisica">
+            
+            <input type="text" value="" name="tipo" readonly="true" id="tipo">
+
+            <input type="text" value="" name="peso" readonly="true" id="peso">
+
+            <input type="text" value="" name="altura" readonly="true" id="altura">  
         
-        <input type="text" value="" name="altura" readonly="true" id="altura">
+        </div>
 
+<div class="buscar">
 
+    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" value="pikachu">
+    <button onclick="fetchPokemon()">¡buscar!</button>
+</div>
     </div>
     
     
         
-    <div class="rectanguloAzul"></div>
-</section>
+ <!--   <div class="rectanguloAzul"></div>
+</section>-->
     
 <!--FIGURAS BAJAS-->
 

@@ -2,7 +2,7 @@ body{
 
     margin: 0;
     padding: 0;
-    
+    font-family: 'VT323', monospace;
 
 }
 
@@ -19,6 +19,7 @@ body{
 
     border: 3px solid red;
     flex-basis: 100%;
+    background-color: #55AB62;
 
 }
 
@@ -55,11 +56,14 @@ body{
 
 .pantallaInterna{
     
-    background-color: #dedede;
-    border: 3px solid green;
+    background-color: #55AB62;
+    border: 2rem solid #dedede;
     flex-basis: 50%;
     display: flex;
     justify-content: center;
+    border-radius: 1rem;
+    border-bottom-left-radius: 4rem;
+
     
 }
 
@@ -82,8 +86,23 @@ body{
 .informacion{
 
     border: 3px solid red;
+    flex-basis: 100%;
+  
 
 }
+
+.buscar{
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border: 3px solid blue;
+    padding: 0 1rem;
+    align-items: center;
+    font-size: bold;
+}
+
+
 
 
 /*scroll poderes*/
@@ -191,7 +210,6 @@ body{
     height: 1rem;
     background-color: blue;
     border-radius: 30px;
-
     margin: 2rem;
 
 
@@ -204,7 +222,68 @@ body{
 
 }
 
+#pokeName{
+
+    background-color: #55AB62;
+    text-align: center;
+    padding: 1.5rem;
+    margin:1rem;
+    color: black;
+    border: transparent;
+    border-radius: .5rem;
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    width: 50%;
+}
+
+
+.informacion button{
+
+    padding:1rem;
+    background-color: #095377;
+    color: #ffff00;
+    border: transparent;
+    border-radius: 0.5rem;
+    font-family: 'VT323', monospace;
+    font-size: 1.3rem;
+    width: 25%;
+    
+    color: white;
+}
+
+
+.leds{
+
+    display: flex;
+    
+    gap: 1rem;
+}
 
 
 
 /*--------------------------DETALLES FIGURAS--------------------------------------*/
+
+
+/*----------------------------INFOFISICA-------------------------------------*/
+
+.infoFisica{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.infoFisica input{
+    border-radius: 3px;
+
+    border:  transparent;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'VT323', monospace;
+    
+}
+
+
+
+/*----------------------------INFOFISICA-------------------------------------*/
