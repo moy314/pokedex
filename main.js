@@ -158,15 +158,53 @@ function graficas(poderes,niveles){
 
             label:"stats",
             data:niveles,
-            backgroundColor: 'rgba(255, 0, 0, 0.2)',
-            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(189, 15, 52, .5)',
+            borderColor: 'rgb(255, 0,0)',
+           // borderColor: 'rgb(0, 0, 0)',
             pointBackgroundColor: 'rgb(255, 99, 132)',
             pointBorderColor: '#fff',
             pointHoverBackgroundColor: '#fff',
-            pointHoverBorderColor: 'rgb(255, 99, 132)'
+            pointHoverBorderColor: 'rgb(255, 99, 132)',
+            borderWidth: 1.5
+            
         
         }]
+
+
+    },
+
+    options:{
+        scales:{
+
+            r:{
+               
+                pointLabels: {
+                    color: 'black'
+                },
+
+                angleLines:{
+                    color:'black'
+                },
+
+                grid:{
+                    color:'black'
+                },
+
+                ticks:{
+                       color:'black',
+                       
+                        
+                  },
+
+                  
+            },
+
+            
+        }
+
+
     }
+
 
 })
 

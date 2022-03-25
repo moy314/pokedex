@@ -12,7 +12,7 @@ body{
     border: 3px solid green;
     display: flex;
     flex-flow: row nowrap;
-    background-color: #BD0F34;
+    background-color: rgb(189, 15, 52);
 }
 
 .estadisticas{
@@ -24,6 +24,10 @@ body{
     repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
     repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),
     repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(85, 171, 98),rgb(85, 171, 98));
+    border: 2rem solid #dedede;
+    border-bottom-left-radius: 2rem;
+    /*padding:3rem;*/
+    text-align: center;
 }
 
 
