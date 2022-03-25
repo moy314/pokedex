@@ -19,8 +19,11 @@ body{
 
     border: 3px solid red;
     flex-basis: 100%;
-    background-color: #55AB62;
-
+    /*background-color: #55AB62;*/
+    background-image: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(85, 171, 98),rgb(85, 171, 98));
 }
 
 
@@ -56,7 +59,11 @@ body{
 
 .pantallaInterna{
     
-    background-color: #55AB62;
+    background-image: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(85, 171, 98),rgb(85, 171, 98));
+   /* background-color: #55AB62;*/
     border: 2rem solid #dedede;
     flex-basis: 50%;
     display: flex;
@@ -223,8 +230,12 @@ body{
 }
 
 #pokeName{
-
-    background-color: #55AB62;
+    background-image: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(85, 171, 98),rgb(85, 171, 98));
+    
+   /* background-color: #55AB62;*/
     text-align: center;
     padding: 1.5rem;
     margin:1rem;
