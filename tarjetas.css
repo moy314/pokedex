@@ -14,7 +14,7 @@ body{
 
 .container{
 
-    border: 3px solid red;
+   /* border: 3px solid red;*/
     display: flex;
     gap: 4%;
     flex-flow: row wrap;
@@ -24,7 +24,7 @@ body{
 
 .poke-block{
 
-    border: 3px solid green;
+   /* border: 3px solid green;*/
     flex-basis: 22%;
     display: flex;
     flex-flow: column nowrap;
