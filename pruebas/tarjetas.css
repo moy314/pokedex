@@ -1,3 +1,17 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    background-color: rgb(189, 15, 52);
+    text-align: center;
+
+
+}
+
+
+
+
 .container{
 
     border: 3px solid red;
@@ -15,5 +29,60 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    font-family: 'VT323', monospace;
+    background-image: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 96px),
+    repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.09) 0px, rgba(0, 0, 0, 0.09) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(85, 171, 98),rgb(85, 171, 98));
+    border: 2rem solid #dedede;
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+
+.title a{
+
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    color: yellow;
 
 }
+
+
+input[type ="button"]{
+
+    background-color: #095377;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+
+
+}
+
+input[type ="button"]:hover{
+
+    background-color: #1793d1;
+    
+
+}
+
+
+.botones{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1.5rem;
+}
+
+
+/*.poke-block:hover{
+
+    border: 2rem solid yellow;
+   
+
+
+}*/

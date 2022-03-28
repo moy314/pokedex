@@ -15,15 +15,65 @@ function fetchPokemon(id){
     
 }
 
+let offset = 1;
+let limit  = 8;
 
-function numeroPokemons(num){
+// PAGINACION/
+function anterior(){
 
-    for(i = 1; i<= num;i++){
+    if(offset != 1){
+    offset -=9;
+    removerTarjeta(container);
+    numeroPokemons(offset,limit)
+}
+        
+}
+
+function siguiente(){
+
+    if(offset !=890){
+        offset +=9;
+    removerTarjeta(container);
+
+    numeroPokemons(offset,limit)
+    }
+    
+
+
+}
+
+
+/*const anterior = document.addEventListener('click',()=>{
+
+  
+})
+
+const siguiente = document.addEventListener('click',()=>{
+
+  
+})*/
+
+
+
+
+
+
+
+
+
+
+function numeroPokemons(offset,limit){
+    
+
+    for(let i = offset; i<= offset + limit ;i++){
 
 
         fetchPokemon(i);
+        console.log(i);
     }
 }
+
+
 
 
 
@@ -53,6 +103,8 @@ function createPokemon(pokemon){
     name.classList.add('name');
     name.textContent = pokemon.name;
 
+
+    
     const type = document.createElement('p');
     type.classList.add('color');
     type.textContent = pokemon.types[0].type.name;
@@ -68,12 +120,16 @@ function createPokemon(pokemon){
 }
 
 
+/*detalles pokemon en tarjetas*/
 
 
 
 
 
-numeroPokemons(9);
+
+
+
+numeroPokemons(offset,limit);
 
 
 
@@ -100,3 +156,17 @@ const typeColors = {
 }
 
 console.log(typeColors["ice"]);
+
+
+// REMOVER 
+
+
+
+function removerTarjeta(parent) {
+
+    while(parent.firstChild){
+        parent.removeChild(parent.firstChild)
+    }
+
+
+}

@@ -2,7 +2,8 @@ body{
 
     margin: 0;
     padding: 0;
-    font-family: 'VT323', monospace;
+    
+
 
 }
 
@@ -13,6 +14,13 @@ body{
     display: flex;
     flex-flow: row nowrap;
     background-color: rgb(189, 15, 52);
+    /*padding: 3rem;*/
+    /*border-top-left-radius: 5rem;*/
+    border-radius: 5rem;
+
+    border: 1.5rem solid black;
+    margin: 1rem;
+
 }
 
 .estadisticas{
@@ -28,6 +36,13 @@ body{
     border-bottom-left-radius: 2rem;
     /*padding:3rem;*/
     text-align: center;
+    /*height: 50%;*/
+    border-top-right-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -42,10 +57,72 @@ body{
     display: flex;
     flex-flow: column;
     flex-basis: 50%;
-    border: 3px solid red;
-    height: 100px;
+    border-left: 1rem solid rgb(0, 0, 0,0.5);
+    border-radius: 3rem;
+
+   
+   
 
 }
+
+
+
+/*  PRUEBA INTERMEDIO*/
+
+.intermedio{
+
+    width: 2.5rem;
+    height: 70rem;
+    border: 0.2rem solid rgb(0, 0, 0,0.5);;
+    padding: 0;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+
+
+.bisagra1{
+
+    width: 2.5rem;
+    height: 2rem;
+    border: 3px solid rgb(0, 0, 0,0.5);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: 5rem;
+    padding: 0;
+    
+
+}
+
+.bisagra2{
+
+    width: 2.5rem;
+    height: 2rem;
+    border: 3px solid rgb(0, 0, 0,0.5);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-top: 30rem;
+    padding: 0;
+    
+
+}
+
+
+
+
+
 
 .informacion label,input{
 
@@ -56,7 +133,7 @@ body{
 .pantalla{
     display: flex;
     flex-flow: row;
-    
+    margin-top: 5rem;
     border: 3px solid blue;
     justify-content: center;
 }
@@ -111,6 +188,7 @@ body{
     padding: 0 1rem;
     align-items: center;
     font-size: bold;
+    margin-top: 3rem;
 }
 
 
@@ -118,10 +196,19 @@ body{
 
 /*scroll poderes*/
 
+.poderes{
+
+    margin-left: 1rem;
+
+}
+
+
 .scroll-bg{
 
     width: 400px;
     border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -130,9 +217,20 @@ body{
     height: 300px;
     overflow: hidden;
     overflow-y: scroll;
+    background-color: black;
+    color:yellow;
+    font-size: 1.3rem;
+    width: 50%;
 }
 
+.container-ul{
 
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -266,11 +364,25 @@ body{
     color: white;
 }
 
+.informacion button:hover{
+
+    background-color:#0CCCFF;
+    color: black;
+
+
+}
+
+
+
 
 .leds{
 
     display: flex;
-    
+    border-bottom: 1rem solid rgba(0, 0, 0,0.5);
+    width: 50%;
+    border-bottom-right-radius:5rem;
+    margin-top: 1rem;
+    padding: 1rem;
     gap: 1rem;
 }
 
@@ -285,6 +397,8 @@ body{
 
     display: flex;
     justify-content: space-between;
+    margin-top:3rem;
+    
 
 }
 
@@ -302,3 +416,28 @@ body{
 
 
 /*----------------------------INFOFISICA-------------------------------------*/
+ 
+#porID{
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    color: white;
+
+
+
+}
+
+#porID:hover{
+
+    background-color: yellow;
+    color: black;
+}
